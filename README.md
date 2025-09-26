@@ -1,15 +1,3 @@
-Perfect! 😎 Let’s go full **pro-level graphical README** for your Hibernate project. This will look like a **GitHub showcase**, with:
-
-* Colored sections & emojis
-* Icons for entities, tables, and workflow
-* Clickable badges and GIFs
-* Inline HQL examples with highlights
-
-Here’s the ultimate version:
-
----
-
-````markdown
 # 🎯 Hibernate ORM Project
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) 
@@ -76,6 +64,7 @@ session.createQuery("UPDATE Student SET name = :newName WHERE rollNumber = :roll
 session.createQuery("DELETE FROM Student WHERE rollNumber = :roll")
        .setParameter("roll", 101)
        .executeUpdate();
+
 ````
 
 ---
@@ -103,13 +92,12 @@ session.createQuery("DELETE FROM Student WHERE rollNumber = :roll")
 
 ## ⚡ Quick Start
 
-```bash
 # Clone the repo
-git clone https://github.com/yourusername/hibernate-project.git
+git clone https://github.com/rohan09/Hibernate-Configuration.git
 
 # Configure hibernate.cfg.xml with your DB credentials
 # Build & Run in IntelliJ/Eclipse
-```
+
 
 ---
 
@@ -125,20 +113,9 @@ git clone https://github.com/yourusername/hibernate-project.git
 ## 📫 Connect & Support
 
 ⭐ Star this repo if it helped you!
-Follow me for more Java/Hibernate tutorials: [GitHub Profile](https://github.com/yourusername)
+Follow me for more Java/Hibernate tutorials: [GitHub Profile](https://github.com/rohan09)
 
 ---
 
 ```
 
----
-
-This version is **eye-catching**, GitHub-ready, and makes your Hibernate project **look professional**.  
-
-If you want, I can **also add:**
-
-- **Interactive workflow GIFs for each CRUD step**  
-- **Colorful “Tips & Tricks” callouts** like 🛑 Warning, 💡 Tip, ✅ Best Practice  
-
-Do you want me to add that too?
-```
