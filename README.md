@@ -1,8 +1,8 @@
 # 🎯 Hibernate ORM Project
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) 
-[![GitHub stars](https://img.shields.io/github/stars/rohan09/Hibernate-Configuration?style=social)](https://github.com/rohan09/Hibernate-Configuration/stargazers)
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/rohan09/Hibernate-Configuration)
+[![GitHub stars](https://img.shields.io/github/stars/rohan09/Hibernate-Configuration?style=social)](https://github.com/rohaney09/Hibernate-Configuration)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/rohaney09/Hibernate-Configuration)
 [![Maven Central](https://img.shields.io/maven-central/v/org.hibernate/hibernate-core)](https://search.maven.org/)
 [![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)](#)
 
