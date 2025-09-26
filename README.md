@@ -16,7 +16,6 @@ This **Hibernate ORM** project demonstrates **Java & SQL database integration** 
 - 🛡 **Transaction Management**  
 - 💨 **Lombok Integration** for less boilerplate  
 
-![Hibernate Demo](https://media.giphy.com/media/3o7TKr4s1w6KQ1Pj5y/giphy.gif)  
 *💡 Example: CRUD operations in action*
 
 ---
