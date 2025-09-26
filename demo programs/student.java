@@ -1,30 +1,38 @@
 package org.example;
 
-import lombok.*;
+public class Student {
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Column;
-
-@NoArgsConstructor
-@AllArgsConstructor
-@Getter
-@Setter
-@ToString
-@EqualsAndHashCode
-@Entity(name = "student") // Specifies the table name for this entity
-public class student {
-
-    @Id // Marks this field as the primary key
     private int id;
-
-    @Column(name = "student_name") // Maps this field to a specific column name
     private String name;
-
-    @Column(name = "student_city") // Maps this field to a specific column name
     private String city;
-
     private Certificate certi;
 
+    // Constructors
+    public Student() {}
 
+    public Student(int id, String name, String city, Certificate certi) {
+        this.id = id;
+        this.name = name;
+        this.city = city;
+        this.certi = certi;
+    }
+
+    // Getters & Setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+
+    public String getCity() { return city; }
+    public void setCity(String city) { this.city = city; }
+
+    public Certificate getCerti() { return certi; }
+    public void setCerti(Certificate certi) { this.certi = certi; }
+
+    // toString
+    @Override
+    public String toString() {
+        return "Student [id=" + id + ", name=" + name + ", city=" + city + ", certi=" + certi + "]";
+    }
 }
