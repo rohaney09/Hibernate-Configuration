@@ -113,16 +113,4 @@ Follow me for more Java/Hibernate tutorials: [GitHub Profile](https://github.com
 
 ```
 
----
 
-If you want, I can **also create a super-modern “graphical README” version** with:  
-
-- **Colored sections**  
-- **Inline emojis with HQL examples**  
-- **Icons for entities, tables, and workflow**  
-- **Clickable badges and GIFs**  
-
-It would look like a **professional GitHub project page**.  
-
-Do you want me to make that one too?
-```
