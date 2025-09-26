@@ -115,7 +115,4 @@ git clone https://github.com/rohan09/Hibernate-Configuration.git
 ⭐ Star this repo if it helped you!
 Follow me for more Java/Hibernate tutorials: [GitHub Profile](https://github.com/rohan09)
 
----
-
-```
 
