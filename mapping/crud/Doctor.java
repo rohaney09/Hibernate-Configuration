@@ -18,6 +18,9 @@ public class Doctor {
     @Id
     @Column(name = "Doctor_ID")
     private int id;
+    @Column(name = "Doctor_Name")
     private String name;
+    @Column(name = "Doctor_Fees")
     private int fees;
 }
+
