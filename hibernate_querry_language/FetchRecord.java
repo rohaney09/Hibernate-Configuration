@@ -18,14 +18,16 @@ public class FetchRecord {
 
         String hql = "FROM studentRecord";
         Query q = session.createQuery(hql);
+        
        // q.setParameter("r",103);
         List<studentRecord> list = q.list();
         for(studentRecord sr : list)
         {
-            System.out.println(sr.getRoll()+" "+ sr.getName());
+            System.out.println("Student Details: "+sr.getRoll()+" "+ sr.getName());
         }
 
         session.close();
         factory.close();
     }
 }
+
