@@ -17,7 +17,7 @@ public class UpdateRecord {
 
         String hql = "update studentRecord set name=:n where roll=:r";
         Query q = session.createQuery(hql);
-        q.setParameter("n","Honey");
+        q.setParameter("n","Rohan");
         q.setParameter("r",102);
         int status = q.executeUpdate();
         System.out.println(status);
@@ -28,3 +28,4 @@ public class UpdateRecord {
         System.out.println("Student Updated successfully!");
     }
 }
+
